@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VisitCard</title>
+    <link rel="stylesheet" href="CSS/main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="info">
+        <img class="avatar" src="img/photo.jpg" alt="CardPhoto" />
+        <div class="info-text">
+          <h1>Dmitry Prishchepo</h1>
+          <p>I study <strong>HTML, JS and CSS</strong> this is my card</p>
+          <p>
+            I'm just getting better at programming; in my free time I also like
+            to play computer games.
+          </p>
+          <h4>Socials:</h4>
+          <a href="https://t.me/unfavddd" target="_blank">Telegram</a>
+          |
+          <a href="https://instagram.com/unfavdddd" target="_blank"
+            >Instagram</a
+          >
+        </div>
+      </div>
+
+      <div class="card bg-grey1">
+        <h2>Hobbies:</h2>
+        <ol class="list" type="A">
+          <li>Computer games</li>
+          <li>Programming</li>
+        </ol>
+      </div>
+
+      <div class="card bg-grey2">
+        <h2>Job experience</h2>
+        <table class="table">
+          <thead>
+            <tr>
+              <td>Job place</td>
+              <td>Job title</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="temp">Undefined</td>
+              <td>Undefined</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="card bg-grey3">
+        <h2>YouTube linked guides</h2>
+        <ul class="link-list">
+          <li>
+            <a
+              href="https://www.youtube.com/watch?v=DOEtVdkKwcU&list=PLShMaAi2FuG7R6r1Xf6jCk4BgP5s8FoE3&index=3"
+            >
+              HTML for Beginners - Practical Course</a
+            >
+          </li>
+          <li>
+            <a href="https://www.youtube.com/watch?v=HD13eq_Pmp8"
+              >Learn HTML in 1 hour 🌎</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <div class="contact">
+        <h2>Contact with me</h2>
+        <div class="row">
+          <div class="form-group">
+            <label for="name">Your name:</label>
+            <input type="text" id="name" placeholder="Type here" />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Your email:</label>
+            <input type="email" id="email" placeholder="Type here" />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="text">Your message:</label>
+          <textarea name="text" cols="30" rows="1"></textarea>
+        </div>
+        <input class="btn" type="submit" value="Send message" />
+      </div>
+    </div>
+  </body>
+</html>
